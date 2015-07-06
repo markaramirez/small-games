@@ -51,7 +51,7 @@ public class Minesweeper {
       }
       if(args[2].equals("bomb")) {
         out.println("You marked the spot as a bomb.");
-        userBoard[args[0].charAt(0) - 'A'][Integer.parseInt(args[1]) - 1] = "B";
+        userBoard[args[0].charAt(0) - 'a'][Integer.parseInt(args[1]) - 1] = "B";
       }
       if(args[2].equals("bomb") && board[args[0].charAt(0) - 'a'][Integer.parseInt(args[1]) - 1].equals("M")) {
         correct++;
