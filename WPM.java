@@ -7,9 +7,9 @@ public class WPM {
        Scanner scan = new Scanner(System.in);
        Scanner list = new Scanner(new File("common.txt"));
        String[] nouns = new String[100];
-       String[] coms = {"You're on fire!!", "Good Job!", "Great!", "Keep it up!", "Nice Going!", "You got it!", "You're a Master!", "Nice Work!", "Excellent.", "Outstanding.", "There are            skid-marks on the keyboard!!!"};
+       String[] coms = {"You're on fire!!", "Good Job!", "Great!", "Keep it up!", "Nice Going!", "You got it!", "You're a Master!", "Nice Work!", "Excellent.", "Outstanding.", "There are skid-marks on the keyboard!!!"};
        for(int i = 0;i < 100;i++) {
-       		nouns[i] = list.nextLine().substring(7);
+       		nouns[i] = list.nextLine().substring(8);
        }
        System.out.println("TYPE!");
   	   long t = System.nanoTime();

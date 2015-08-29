@@ -40,7 +40,7 @@ public class Minesweeper {
         out.println();
       }
       out.println();
-      out.println("Dig Somewhere. For example: \"b 2 bomb\" or \"a 1 clean\"");
+      out.println("Dig Somewhere. For example: \"b 2 bomb\" or \"a 1 clear\"");
       args = scan.nextLine().split(" ");
       //need bad input checking code
       userBoard[args[0].charAt(0) - 'a'][Integer.parseInt(args[1]) - 1] =
