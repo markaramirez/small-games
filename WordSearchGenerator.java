@@ -140,5 +140,13 @@ public class WordSearchGenerator {
       }
       System.out.println();
     }
+    for(int i = 0;i < words.length;i+=3) {
+      System.out.print(words[i] + "  ");
+      if(i+1 >= words.length) break;
+      System.out.print(words[i+1] + "  ");
+      if(i+2 >= words.length) break;
+      System.out.print(words[i+2] + "  ");
+      System.out.println();
+    }
   }
 }
